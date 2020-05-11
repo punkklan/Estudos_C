@@ -6,10 +6,10 @@ Inicio
 	Fim_para
 Fim_para
 
-	     
+____________________________________________________________	     
 //	para é por contagem 
 //	enquanto é por condição até que seja verdadeira
-	
+____________________________________________________________	
 	
 Algoritmo aguarde2
 	Var cont: inteiro	
@@ -21,7 +21,17 @@ Inicio
 	Fim_enquanto
 Fim
 
+____________________________________________________________
 
+Algoritmo 
+	Var valor, soma: inteiro
+Inicio
+	soma <- 0
+	Enquanto (soma < 100) faça
+		leia (valor)
+		soma <- soma + valor
+	Fim_enquanto
+Fim		
 	
 	
 	
