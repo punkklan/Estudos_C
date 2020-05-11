@@ -1,0 +1,27 @@
+Algoritmo aguarde
+	Var  cont : inteiro
+Inicio
+	Para cont de 1 até 100 passo 1 faça 
+		escreva ("Aguarde...")
+	Fim_para
+Fim_para
+
+	     
+//	para é por contagem 
+//	enquanto é por condição até que seja verdadeira
+	
+	
+Algoritmo aguarde2
+	Var cont: inteiro	
+Inicio 
+	cont <- 0
+	Enquanto (cont < 100) faça
+		escreva ("Aguarde...")
+		cont <- +1 
+	Fim_enquanto
+Fim
+
+
+	
+	
+	

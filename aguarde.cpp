@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 main(){
-
-int num;
- 	
 	
-	for (num = 1; num <=10; num++){
+	for (int num = 1; num <=10; num++){
 	 printf("Aguarde... %d\n", num);	
 	}
+	return 0;
 }
