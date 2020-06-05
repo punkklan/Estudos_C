@@ -5,13 +5,15 @@ main(){
 	
 	float poliaPg, poliaGg, distancia, resul;
 		
-	printf("Digite o raio da pequena polia ");
+	printf("Digite o diametro da pequena polia ");
 	scanf ("%f", &poliaPg);
-	printf("Digite o raio da grande polia ");
+	printf("Digite o diametro da grande polia ");
 	scanf ("%f", &poliaGg);
 	printf ("digite a distancia entre eixos ");
 	scanf ("%f", &distancia);
 	
+	poliaPg = poliaPg / 2;
+	poliaGg = poliaGg / 2;
 	resul = 3.14 * (poliaGg + poliaPg) + 2 * sqrt(pow(distancia, 2)+(pow((poliaGg-poliaPg),2)));
 	
 	printf ("A circunferencia da correia = %f", resul);
